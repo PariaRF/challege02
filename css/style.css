@@ -68,7 +68,7 @@ h1{
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    padding: 2rem;
+    padding: 0 2rem 0 2rem;
 }
 
 .requests__wrapper h1{
@@ -269,5 +269,8 @@ h1{
     .requests__list{
         grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
         gap: 2rem;
+    }
+    .requests__wrapper{
+        padding: 0;
     }
 }
